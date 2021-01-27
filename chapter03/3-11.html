@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* tbody가 빠지면 css선택자가 적용이 안된다.. */
+      table > tbody > tr > th {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Region</th>
+      </tr>
+      <tr>
+        <th>이동주</th>
+        <th>서울특별시 서초구 서초동</th>
+      </tr>
+      <tr>
+        <th>이동주</th>
+        <th>서울특별시 강남구 압구정동</th>
+      </tr>
+    </table>
+  </body>
+</html>
